@@ -20,7 +20,6 @@
 		8E8662F418EC3CE200B824BA /* timeVelocity-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E8662E418EC3CE200B824BA /* timeVelocity-Info.plist */; };
 		8E8662F518EC3CE200B824BA /* TimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8662E718EC3CE200B824BA /* TimeViewController.m */; };
 		8E8662F618EC3CE200B824BA /* Trifecta-logo-Original_320.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E8662E818EC3CE200B824BA /* Trifecta-logo-Original_320.png */; };
-		8E8662F718EC3CE200B824BA /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8662EA18EC3CE200B824BA /* User.m */; };
 		8E8B50FA18D33BC4004B2047 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8B50F918D33BC4004B2047 /* Foundation.framework */; };
 		8E8B50FC18D33BC4004B2047 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8B50FB18D33BC4004B2047 /* CoreGraphics.framework */; };
 		8E8B50FE18D33BC4004B2047 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8B50FD18D33BC4004B2047 /* UIKit.framework */; };
@@ -68,8 +67,6 @@
 		8E8662E618EC3CE200B824BA /* TimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeViewController.h; sourceTree = "<group>"; };
 		8E8662E718EC3CE200B824BA /* TimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeViewController.m; sourceTree = "<group>"; };
 		8E8662E818EC3CE200B824BA /* Trifecta-logo-Original_320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Trifecta-logo-Original_320.png"; sourceTree = "<group>"; };
-		8E8662E918EC3CE200B824BA /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
-		8E8662EA18EC3CE200B824BA /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		8E8B50F618D33BC4004B2047 /* timeVelocity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timeVelocity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8B50F918D33BC4004B2047 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8E8B50FB18D33BC4004B2047 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -148,8 +145,6 @@
 				8E8662E618EC3CE200B824BA /* TimeViewController.h */,
 				8E8662E718EC3CE200B824BA /* TimeViewController.m */,
 				8E8662E818EC3CE200B824BA /* Trifecta-logo-Original_320.png */,
-				8E8662E918EC3CE200B824BA /* User.h */,
-				8E8662EA18EC3CE200B824BA /* User.m */,
 				8E43FBCF18EC7E9F008E5458 /* Supporting Files */,
 			);
 			path = timeVelocity;
@@ -349,7 +344,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E8662F718EC3CE200B824BA /* User.m in Sources */,
 				8E8662F018EC3CE200B824BA /* main.m in Sources */,
 				8E8662F318EC3CE200B824BA /* TableViewController.m in Sources */,
 				8E8662EF18EC3CE200B824BA /* LoginViewController.m in Sources */,
