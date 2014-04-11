@@ -9,7 +9,6 @@
 #import "TableViewController.h"
 #import <AFNetworking/AFNetworking.h>
 #import <TTAlertManager/TTAlertManager.h>
-#import "User.h"
 
 @interface LoginViewController : UIViewController
 
