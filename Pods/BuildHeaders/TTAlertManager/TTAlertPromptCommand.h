@@ -1,0 +1,1 @@
+../../TTAlertManager/TTAlertManager/TTAlertPromptCommand.h

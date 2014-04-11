@@ -1,0 +1,1 @@
+../../JIRAConnect/JIRAConnect/JMCClasses/Core/model/JMCComment.h

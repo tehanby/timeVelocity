@@ -7,11 +7,15 @@
 //
 
 #import "AppDelegate.h"
+#import <JIRAConnect/JMC.h>
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[JMC sharedInstance] configureJiraConnect:@"https://jira.trifecta.com/"
+                                    projectKey:@"timeVelocity"
+                                        apiKey:@"591451a6-bc59-4ca9-8840-b67f8c1e440f"];
     // Override point for customization after application launch.
     return YES;
 }

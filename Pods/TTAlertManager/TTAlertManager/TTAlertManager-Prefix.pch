@@ -1,0 +1,26 @@
+//
+// Prefix header for all source files of the 'TTAlertManager' target in the 'TTAlertManager' project
+//
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#endif
+
+#ifndef DLog
+#ifdef DEBUG
+// Log to the console
+#define DLog(__FORMAT__, ...) NSLog((@"%s [Line %d] " __FORMAT__), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#else
+#ifdef TESTFLIGHT
+// Log to TestFlight remotely
+#define DLog(__FORMAT__, ...) TFLog((@"%s [Line %d] " __FORMAT__), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#else
+// Swallow log statements
+#define DLog(...) do { } while (0)
+#endif
+
+#ifndef NS_BLOCK_ASSERTIONS
+#define NS_BLOCK_ASSERTIONS
+#endif
+#endif
+#endif

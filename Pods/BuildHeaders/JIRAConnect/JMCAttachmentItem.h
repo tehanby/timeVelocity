@@ -1,0 +1,1 @@
+../../JIRAConnect/JIRAConnect/JMCClasses/Base/JMCAttachmentItem.h

@@ -7,21 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79ACB500ACC4428CB527E033 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1043191F6D894C1C839C78DB /* libPods.a */; };
+		8E8662EB18EC3CE200B824BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8662D718EC3CE200B824BA /* AppDelegate.m */; };
+		8E8662EC18EC3CE200B824BA /* ArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8662D918EC3CE200B824BA /* ArrayDataSource.m */; };
+		8E8662ED18EC3CE200B824BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8662DA18EC3CE200B824BA /* Images.xcassets */; };
+		8E8662EE18EC3CE200B824BA /* JiraTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8662DC18EC3CE200B824BA /* JiraTableViewController.m */; };
+		8E8662EF18EC3CE200B824BA /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8662DE18EC3CE200B824BA /* LoginViewController.m */; };
+		8E8662F018EC3CE200B824BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8662DF18EC3CE200B824BA /* main.m */; };
+		8E8662F118EC3CE200B824BA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8662E018EC3CE200B824BA /* Main_iPad.storyboard */; };
+		8E8662F218EC3CE200B824BA /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8662E118EC3CE200B824BA /* Main_iPhone.storyboard */; };
+		8E8662F318EC3CE200B824BA /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8662E318EC3CE200B824BA /* TableViewController.m */; };
+		8E8662F418EC3CE200B824BA /* timeVelocity-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E8662E418EC3CE200B824BA /* timeVelocity-Info.plist */; };
+		8E8662F518EC3CE200B824BA /* TimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8662E718EC3CE200B824BA /* TimeViewController.m */; };
+		8E8662F618EC3CE200B824BA /* Trifecta-logo-Original_320.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E8662E818EC3CE200B824BA /* Trifecta-logo-Original_320.png */; };
+		8E8662F718EC3CE200B824BA /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8662EA18EC3CE200B824BA /* User.m */; };
 		8E8B50FA18D33BC4004B2047 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8B50F918D33BC4004B2047 /* Foundation.framework */; };
 		8E8B50FC18D33BC4004B2047 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8B50FB18D33BC4004B2047 /* CoreGraphics.framework */; };
 		8E8B50FE18D33BC4004B2047 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8B50FD18D33BC4004B2047 /* UIKit.framework */; };
-		8E8B510418D33BC4004B2047 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E8B510218D33BC4004B2047 /* InfoPlist.strings */; };
-		8E8B510618D33BC4004B2047 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8B510518D33BC4004B2047 /* main.m */; };
-		8E8B510A18D33BC4004B2047 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8B510918D33BC4004B2047 /* AppDelegate.m */; };
-		8E8B510D18D33BC4004B2047 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8B510B18D33BC4004B2047 /* Main_iPhone.storyboard */; };
-		8E8B511018D33BC4004B2047 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8B510E18D33BC4004B2047 /* Main_iPad.storyboard */; };
-		8E8B511318D33BC4004B2047 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8B511218D33BC4004B2047 /* ViewController.m */; };
-		8E8B511518D33BC4004B2047 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8B511418D33BC4004B2047 /* Images.xcassets */; };
 		8E8B511C18D33BC4004B2047 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8B511B18D33BC4004B2047 /* XCTest.framework */; };
 		8E8B511D18D33BC4004B2047 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8B50F918D33BC4004B2047 /* Foundation.framework */; };
 		8E8B511E18D33BC4004B2047 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8B50FD18D33BC4004B2047 /* UIKit.framework */; };
 		8E8B512618D33BC4004B2047 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E8B512418D33BC4004B2047 /* InfoPlist.strings */; };
 		8E8B512818D33BC4004B2047 /* timeVelocityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8B512718D33BC4004B2047 /* timeVelocityTests.m */; };
+		8EBAAA0B18EEE34D00317D5C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBAAA0A18EEE34D00317D5C /* CFNetwork.framework */; };
+		8EBAAA0D18EEE35800317D5C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBAAA0C18EEE35800317D5C /* SystemConfiguration.framework */; };
+		8EBAAA0F18EEE36900317D5C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBAAA0E18EEE36900317D5C /* MobileCoreServices.framework */; };
+		8EBAAA1118EEE37100317D5C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBAAA1018EEE37100317D5C /* AVFoundation.framework */; };
+		8EBAAA1318EEE37B00317D5C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBAAA1218EEE37A00317D5C /* CoreLocation.framework */; };
+		8EBAAA1518EEE3A200317D5C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBAAA1418EEE3A200317D5C /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,26 +48,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1043191F6D894C1C839C78DB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E8662D618EC3CE200B824BA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E8662D718EC3CE200B824BA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E8662D818EC3CE200B824BA /* ArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayDataSource.h; sourceTree = "<group>"; };
+		8E8662D918EC3CE200B824BA /* ArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayDataSource.m; sourceTree = "<group>"; };
+		8E8662DA18EC3CE200B824BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8E8662DB18EC3CE200B824BA /* JiraTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiraTableViewController.h; sourceTree = "<group>"; };
+		8E8662DC18EC3CE200B824BA /* JiraTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiraTableViewController.m; sourceTree = "<group>"; };
+		8E8662DD18EC3CE200B824BA /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8E8662DE18EC3CE200B824BA /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8E8662DF18EC3CE200B824BA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E8662E018EC3CE200B824BA /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		8E8662E118EC3CE200B824BA /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		8E8662E218EC3CE200B824BA /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		8E8662E318EC3CE200B824BA /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		8E8662E418EC3CE200B824BA /* timeVelocity-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "timeVelocity-Info.plist"; sourceTree = "<group>"; };
+		8E8662E518EC3CE200B824BA /* timeVelocity-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "timeVelocity-Prefix.pch"; sourceTree = "<group>"; };
+		8E8662E618EC3CE200B824BA /* TimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeViewController.h; sourceTree = "<group>"; };
+		8E8662E718EC3CE200B824BA /* TimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeViewController.m; sourceTree = "<group>"; };
+		8E8662E818EC3CE200B824BA /* Trifecta-logo-Original_320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Trifecta-logo-Original_320.png"; sourceTree = "<group>"; };
+		8E8662E918EC3CE200B824BA /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		8E8662EA18EC3CE200B824BA /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		8E8B50F618D33BC4004B2047 /* timeVelocity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timeVelocity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8B50F918D33BC4004B2047 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8E8B50FB18D33BC4004B2047 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		8E8B50FD18D33BC4004B2047 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		8E8B510118D33BC4004B2047 /* timeVelocity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "timeVelocity-Info.plist"; sourceTree = "<group>"; };
-		8E8B510318D33BC4004B2047 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8E8B510518D33BC4004B2047 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8E8B510718D33BC4004B2047 /* timeVelocity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "timeVelocity-Prefix.pch"; sourceTree = "<group>"; };
-		8E8B510818D33BC4004B2047 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8E8B510918D33BC4004B2047 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8E8B510C18D33BC4004B2047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		8E8B510F18D33BC4004B2047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		8E8B511118D33BC4004B2047 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8E8B511218D33BC4004B2047 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8E8B511418D33BC4004B2047 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8E8B511A18D33BC4004B2047 /* timeVelocityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timeVelocityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8B511B18D33BC4004B2047 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8E8B512318D33BC4004B2047 /* timeVelocityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "timeVelocityTests-Info.plist"; sourceTree = "<group>"; };
 		8E8B512518D33BC4004B2047 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8E8B512718D33BC4004B2047 /* timeVelocityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = timeVelocityTests.m; sourceTree = "<group>"; };
+		8EBAAA0A18EEE34D00317D5C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8EBAAA0C18EEE35800317D5C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8EBAAA0E18EEE36900317D5C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8EBAAA1018EEE37100317D5C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8EBAAA1218EEE37A00317D5C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8EBAAA1418EEE3A200317D5C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		9DFA8FDF3A1A41E7AB046E33 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +93,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EBAAA1518EEE3A200317D5C /* libsqlite3.dylib in Frameworks */,
+				8EBAAA1318EEE37B00317D5C /* CoreLocation.framework in Frameworks */,
+				8EBAAA1118EEE37100317D5C /* AVFoundation.framework in Frameworks */,
+				8EBAAA0F18EEE36900317D5C /* MobileCoreServices.framework in Frameworks */,
+				8EBAAA0D18EEE35800317D5C /* SystemConfiguration.framework in Frameworks */,
+				8EBAAA0B18EEE34D00317D5C /* CFNetwork.framework in Frameworks */,
 				8E8B50FC18D33BC4004B2047 /* CoreGraphics.framework in Frameworks */,
 				8E8B50FE18D33BC4004B2047 /* UIKit.framework in Frameworks */,
 				8E8B50FA18D33BC4004B2047 /* Foundation.framework in Frameworks */,
+				79ACB500ACC4428CB527E033 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,13 +119,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E43FBCF18EC7E9F008E5458 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E8662DA18EC3CE200B824BA /* Images.xcassets */,
+				8E8662DF18EC3CE200B824BA /* main.m */,
+				8E8662E418EC3CE200B824BA /* timeVelocity-Info.plist */,
+				8E8662E518EC3CE200B824BA /* timeVelocity-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E8662D518EC3CE200B824BA /* timeVelocity */ = {
+			isa = PBXGroup;
+			children = (
+				8E8662D618EC3CE200B824BA /* AppDelegate.h */,
+				8E8662D718EC3CE200B824BA /* AppDelegate.m */,
+				8E8662D818EC3CE200B824BA /* ArrayDataSource.h */,
+				8E8662D918EC3CE200B824BA /* ArrayDataSource.m */,
+				8E8662DB18EC3CE200B824BA /* JiraTableViewController.h */,
+				8E8662DC18EC3CE200B824BA /* JiraTableViewController.m */,
+				8E8662DD18EC3CE200B824BA /* LoginViewController.h */,
+				8E8662DE18EC3CE200B824BA /* LoginViewController.m */,
+				8E8662E018EC3CE200B824BA /* Main_iPad.storyboard */,
+				8E8662E118EC3CE200B824BA /* Main_iPhone.storyboard */,
+				8E8662E218EC3CE200B824BA /* TableViewController.h */,
+				8E8662E318EC3CE200B824BA /* TableViewController.m */,
+				8E8662E618EC3CE200B824BA /* TimeViewController.h */,
+				8E8662E718EC3CE200B824BA /* TimeViewController.m */,
+				8E8662E818EC3CE200B824BA /* Trifecta-logo-Original_320.png */,
+				8E8662E918EC3CE200B824BA /* User.h */,
+				8E8662EA18EC3CE200B824BA /* User.m */,
+				8E43FBCF18EC7E9F008E5458 /* Supporting Files */,
+			);
+			path = timeVelocity;
+			sourceTree = "<group>";
+		};
 		8E8B50ED18D33BC4004B2047 = {
 			isa = PBXGroup;
 			children = (
-				8E8B50FF18D33BC4004B2047 /* timeVelocity */,
+				8E8662D518EC3CE200B824BA /* timeVelocity */,
 				8E8B512118D33BC4004B2047 /* timeVelocityTests */,
 				8E8B50F818D33BC4004B2047 /* Frameworks */,
 				8E8B50F718D33BC4004B2047 /* Products */,
+				9DFA8FDF3A1A41E7AB046E33 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,38 +178,19 @@
 		8E8B50F818D33BC4004B2047 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8EBAAA1418EEE3A200317D5C /* libsqlite3.dylib */,
+				8EBAAA1218EEE37A00317D5C /* CoreLocation.framework */,
+				8EBAAA1018EEE37100317D5C /* AVFoundation.framework */,
+				8EBAAA0E18EEE36900317D5C /* MobileCoreServices.framework */,
+				8EBAAA0C18EEE35800317D5C /* SystemConfiguration.framework */,
+				8EBAAA0A18EEE34D00317D5C /* CFNetwork.framework */,
 				8E8B50F918D33BC4004B2047 /* Foundation.framework */,
 				8E8B50FB18D33BC4004B2047 /* CoreGraphics.framework */,
 				8E8B50FD18D33BC4004B2047 /* UIKit.framework */,
 				8E8B511B18D33BC4004B2047 /* XCTest.framework */,
+				1043191F6D894C1C839C78DB /* libPods.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8E8B50FF18D33BC4004B2047 /* timeVelocity */ = {
-			isa = PBXGroup;
-			children = (
-				8E8B510818D33BC4004B2047 /* AppDelegate.h */,
-				8E8B510918D33BC4004B2047 /* AppDelegate.m */,
-				8E8B510B18D33BC4004B2047 /* Main_iPhone.storyboard */,
-				8E8B510E18D33BC4004B2047 /* Main_iPad.storyboard */,
-				8E8B511118D33BC4004B2047 /* ViewController.h */,
-				8E8B511218D33BC4004B2047 /* ViewController.m */,
-				8E8B511418D33BC4004B2047 /* Images.xcassets */,
-				8E8B510018D33BC4004B2047 /* Supporting Files */,
-			);
-			path = timeVelocity;
-			sourceTree = "<group>";
-		};
-		8E8B510018D33BC4004B2047 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8E8B510118D33BC4004B2047 /* timeVelocity-Info.plist */,
-				8E8B510218D33BC4004B2047 /* InfoPlist.strings */,
-				8E8B510518D33BC4004B2047 /* main.m */,
-				8E8B510718D33BC4004B2047 /* timeVelocity-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		8E8B512118D33BC4004B2047 /* timeVelocityTests */ = {
@@ -162,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E8B512B18D33BC4004B2047 /* Build configuration list for PBXNativeTarget "timeVelocity" */;
 			buildPhases = (
+				553E238694F14DEAA7AD06A7 /* Check Pods Manifest.lock */,
 				8E8B50F218D33BC4004B2047 /* Sources */,
 				8E8B50F318D33BC4004B2047 /* Frameworks */,
 				8E8B50F418D33BC4004B2047 /* Resources */,
+				15B9B4D1C6D245DB94F57227 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +260,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Timothy Hanby";
 				TargetAttributes = {
+					8E8B50F518D33BC4004B2047 = {
+						DevelopmentTeam = 478S752A6K;
+					};
 					8E8B511918D33BC4004B2047 = {
 						TestTargetID = 8E8B50F518D33BC4004B2047;
 					};
@@ -214,6 +275,7 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = 8E8B50ED18D33BC4004B2047;
 			productRefGroup = 8E8B50F718D33BC4004B2047 /* Products */;
@@ -231,10 +293,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E8B511018D33BC4004B2047 /* Main_iPad.storyboard in Resources */,
-				8E8B511518D33BC4004B2047 /* Images.xcassets in Resources */,
-				8E8B510D18D33BC4004B2047 /* Main_iPhone.storyboard in Resources */,
-				8E8B510418D33BC4004B2047 /* InfoPlist.strings in Resources */,
+				8E8662F618EC3CE200B824BA /* Trifecta-logo-Original_320.png in Resources */,
+				8E8662F418EC3CE200B824BA /* timeVelocity-Info.plist in Resources */,
+				8E8662ED18EC3CE200B824BA /* Images.xcassets in Resources */,
+				8E8662F118EC3CE200B824BA /* Main_iPad.storyboard in Resources */,
+				8E8662F218EC3CE200B824BA /* Main_iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,14 +311,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15B9B4D1C6D245DB94F57227 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		553E238694F14DEAA7AD06A7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8E8B50F218D33BC4004B2047 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E8B511318D33BC4004B2047 /* ViewController.m in Sources */,
-				8E8B510A18D33BC4004B2047 /* AppDelegate.m in Sources */,
-				8E8B510618D33BC4004B2047 /* main.m in Sources */,
+				8E8662F718EC3CE200B824BA /* User.m in Sources */,
+				8E8662F018EC3CE200B824BA /* main.m in Sources */,
+				8E8662F318EC3CE200B824BA /* TableViewController.m in Sources */,
+				8E8662EF18EC3CE200B824BA /* LoginViewController.m in Sources */,
+				8E8662EC18EC3CE200B824BA /* ArrayDataSource.m in Sources */,
+				8E8662EB18EC3CE200B824BA /* AppDelegate.m in Sources */,
+				8E8662F518EC3CE200B824BA /* TimeViewController.m in Sources */,
+				8E8662EE18EC3CE200B824BA /* JiraTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,30 +379,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8E8B510218D33BC4004B2047 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8E8B510318D33BC4004B2047 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8E8B510B18D33BC4004B2047 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8E8B510C18D33BC4004B2047 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		8E8B510E18D33BC4004B2047 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8E8B510F18D33BC4004B2047 /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		8E8B512418D33BC4004B2047 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -387,9 +464,15 @@
 		};
 		8E8B512C18D33BC4004B2047 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DFA8FDF3A1A41E7AB046E33 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/JIRAConnect/JIRAConnect/JMCClasses/Libraries",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "timeVelocity/timeVelocity-Prefix.pch";
 				INFOPLIST_FILE = "timeVelocity/timeVelocity-Info.plist";
@@ -400,9 +483,15 @@
 		};
 		8E8B512D18D33BC4004B2047 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DFA8FDF3A1A41E7AB046E33 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/JIRAConnect/JIRAConnect/JMCClasses/Libraries",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "timeVelocity/timeVelocity-Prefix.pch";
 				INFOPLIST_FILE = "timeVelocity/timeVelocity-Info.plist";
@@ -470,6 +559,7 @@
 				8E8B512D18D33BC4004B2047 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E8B512E18D33BC4004B2047 /* Build configuration list for PBXNativeTarget "timeVelocityTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +568,7 @@
 				8E8B513018D33BC4004B2047 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

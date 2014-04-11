@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JMC.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

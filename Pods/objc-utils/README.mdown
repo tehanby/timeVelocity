@@ -1,0 +1,30 @@
+ObjC-Utils
+==========
+This is a collection of useful classes and extensions for common classes in `CoreFoundation` and `UIKit`.
+
+What is in here
+---------------
+- Various categories to make the standard CoreFoundation and UIKit classes more useful
+- A few helper classes with the same purpose
+
+Compatibility
+-------------
+- As of version 0.2.0, all code requires an ARC (Automatic Reference Counting) capable compiler.
+- Everything should be compatible with the iOS SDK 5 or above
+
+How to use
+----------
+Just copy the files you need (and their dependencies) to your project. 
+
+You can also use objc-utils with [CocoaPods](http://cocoapods.org).
+
+Replacements for removed categories
+-----------------------------------
+Over time, some categories were removed, since their functionality is offered in separate projects:
+- Use [KSCrypto](https://github.com/karelia/KSCrypto) instead of `NSString+Hash`. Note, however, that the resulting hashes are different, as NSString+Hash used Base32 encoding to convert hashes to strings.
+- Use the [GZIP](https://github.com/rcdilorenzo/GZIP) instead of `NSData+CocoaDevUserAdditions`. GZIP, using the default compression/decompression methods is fully compatible to `NSData+CocoaDevUserAdditions`.
+
+License
+-------
+You can redistribute and use in your commercial or non-commercial projects all of this code. No guarantee is expressed or implied.
+If you redistribute the code, license notices and the name of the original author (if contained in the code) must be preserved.

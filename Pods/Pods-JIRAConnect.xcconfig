@@ -1,0 +1,2 @@
+PODS_JIRACONNECT_FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/JIRAConnect/JIRAConnect/JMCClasses/Libraries"
+PODS_JIRACONNECT_OTHER_LDFLAGS = -lsqlite3 -framework AVFoundation -framework CFNetwork -framework CoreGraphics -framework CoreLocation -framework CrashReporter -framework MobileCoreServices -framework SystemConfiguration

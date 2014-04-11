@@ -1,0 +1,1 @@
+../../JIRAConnect/JIRAConnect/JMCClasses/Core/attachments/JMCAttachmentsViewController.h
